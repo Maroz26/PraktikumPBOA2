@@ -1,0 +1,39 @@
+/*public class BangunDatarSementara {
+    private int jlmSisi;
+    protected double luas;
+
+    public abstract double hitungLuas(double sisi);
+
+    public void setLuas(double l){
+        luas = l;
+    }
+
+    public abstract double getLuas();
+    public abstract double getKeliling();
+
+    /* dan seterusnya */
+
+
+
+
+
+
+
+
+    public double hitungLuas(double sisi){
+        luas = sisi * sisi;
+        return luas;
+    }
+
+    public double getLuas(){
+        return hitungLuas(this.sisi);
+    }
+
+    public double hitungKeliling(){
+        double keliling = sisi + sisi + sisi + sisi;
+        return keliling;
+    }
+
+    public double getKeliling(){
+        return hitungKeliling();
+    }
